@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Oswald"
+    />
+    <title>Kit UI</title>
+  </head>
+  <body class="primary">
+    <!-- Applique la classe primary au body -->
+
+    <h1>Titre de niveau 1</h1>
+    <h2>Titre de niveau 2</h2>
+    <h3>Titre de niveau 3</h3>
+    <h4>Titre de niveau 4</h4>
+    <h5>Titre de niveau 5</h5>
+    <h6>Titre de niveau 6</h6>
+
+    <p>Ceci est un paragraphe de texte normal.</p>
+
+    <p class="lead">Ce paragraphe a plus d'importance.</p>
+
+    <blockquote>
+      Ceci est une citation. Lorem ipsum dolor sit amet, consectetur adipiscing
+      elit.
+    </blockquote>
+
+    <h2>Liste non ordonnée</h2>
+    <ul>
+      <li>Élément 1</li>
+      <li>Élément 2</li>
+      <li>Élément 3</li>
+    </ul>
+
+    <h2>Liste ordonnée</h2>
+    <ol>
+      <li>Élément 1</li>
+      <li>Élément 2</li>
+      <li>Élément 3</li>
+    </ol>
+
+    <h1>Boutons</h1>
+
+    <button class="btn btn-primary">En savoir plus</button>
+    <button class="btn btn-warning">Avertissement</button>
+    <button class="btn btn-danger">Danger</button>
+    <button class="btn btn-info">Info</button>
+    <button class="btn btn-success">Succès</button>
+    <button class="btn btn-outline">Bouton Outline</button>
+    <button class="btn btn-outline btn-primary">Bouton Outline Primary</button>
+    <button class="btn btn-outline btn-warning">Bouton Outline Warning</button>
+    <button class="btn btn-outline btn-danger">Bouton Outline Danger</button>
+    <button class="btn btn-outline btn-info">Bouton Outline Info</button>
+    <button class="btn btn-outline btn-success">Bouton Outline Succès</button>
+    <button class="btn btn-sm">Petit Bouton</button>
+    <button class="btn btn-lg">Grand Bouton</button>
+
+    <h1>Icones</h1>
+
+    <div class="icon-container">
+      <div class="icon-row">
+        <i class="fas fa-cookie-bite fa-3x"></i>
+        <i class="fas fa-utensils fa-3x"></i>
+        <i class="fas fa-fire-burner fa-3x"></i>
+        <i class="fas fa-book fa-3x"></i>
+        <i class="fas fa-martini-glass fa-3x"></i>
+        <i class="fa-solid fa-bacon fa-3x"></i>
+        <i class="fa-solid fa-hotdog fa-3x"></i>
+        <i class="fa-solid fa-lemon fa-3x"></i>
+      </div>
+      <div class="icon-row">
+        <i class="fas fa-bowl-rice fa-3x"></i>
+        <i class="fas fa-kitchen-set fa-3x"></i>
+        <i class="fas fa-stroopwafel fa-3x"></i>
+        <i class="fas fa-temperature-low fa-3x"></i>
+        <i class="fas fa-blender-phone fa-3x"></i>
+        <i class="fa-solid fa-drumstick-bite fa-3x"></i>
+        <i class="fa-solid fa-cake-candles fa-3x"></i>
+        <i class="fa-solid fa-egg fa-3x"></i>
+      </div>
+    </div>
+
+    <h1>Formulaire</h1>
+
+    <div class="container">
+      <h1>Formulaire d'Inscription</h1>
+      <form>
+        <label for="name">Nom:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="password">Mot de passe:</label>
+        <input type="password" id="password" name="password" required />
+
+        <label for="gender">Genre:</label>
+        <input type="radio" id="male" name="gender" value="male" required />
+        <label for="male">Homme</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Femme</label>
+
+        <label for="gaming">Jeux video préféré:</label>
+        <select id="food" name="gaming" required>
+          <option value="pizza">FPS</option>
+          <option value="burger">RPG</option>
+          <option value="pasta">MMORPG</option>
+          <option value="sushi">MOBA</option>
+        </select>
+
+        <label for="comments">Commentaires:</label>
+        <textarea id="comments" name="comments" rows="4" required></textarea>
+
+        <label for="subscribe">S'abonner à la newsletter:</label>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes" />
+
+        <button type="submit" class="btn btn-primary">S'inscrire</button>
+      </form>
+    </div>
+
+    <h1>List Group</h1>
+
+    <div class="container">
+      <div class="list-group">
+        <div class="list-item">
+          <img src="https://via.placeholder.com/100" alt="Image 1" />
+          <div class="list-content">
+            <h3>Titre de l'Élément 1</h3>
+            <p>
+              Description de l'élément 1. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+        <div class="list-item">
+          <img src="https://via.placeholder.com/100" alt="Image 2" />
+          <div class="list-content">
+            <h3>Titre de l'Élément 2</h3>
+            <p>
+              Description de l'élément 2. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h1>Exemples de Cartes</h1>
+
+    <div class="container_card">
+      <div class="card">
+        <img src="https://via.placeholder.com/150" alt="Image 1" />
+        <div class="card-content">
+          <h3>Carte avec Photo</h3>
+          <p>Description de la carte avec photo.</p>
+          <button class="btn btn-primary">En savoir plus</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <h3>Carte sans Photo</h3>
+          <p>Description de la carte sans photo.</p>
+          <button class="btn btn-primary">En savoir plus</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://via.placeholder.com/150" alt="Image 2" />
+        <div class="card-content">
+          <h3>Carte avec Photo et Paragraphe</h3>
+          <p>Description de la carte avec photo et paragraphe.</p>
+          <button class="btn btn-primary">En savoir plus</button>
+        </div>
+      </div>
+
+      <div class="card avatar-card">
+        <img class="avatar" src="https://via.placeholder.com/50" alt="Avatar" />
+        <div class="card-content">
+          <h3>Carte avec Avatar</h3>
+          <p>Description de la carte avec avatar.</p>
+          <button class="btn btn-primary">En savoir plus</button>
+        </div>
+      </div>
+
+      <div class="card overlay-card">
+        <img
+          class="overlay-image"
+          src="https://via.placeholder.com/300x150"
+          alt="Image 3"
+        />
+        <h3 class="overlay-title">Carte avec Image en Fond</h3>
+      </div>
+    </div>
+  </body>
+</html>
